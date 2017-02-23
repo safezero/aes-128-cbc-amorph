@@ -1,0 +1,29 @@
+{
+  "name": "aes-128-cbc-amorph",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/safezero/aes-128-cbc-amorph.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safezero/aes-128-cbc-amorph/issues"
+  },
+  "homepage": "https://github.com/safezero/aes-128-cbc-amorph#readme",
+  "dependencies": {
+    "aes-js": "^3.0.0",
+    "amorph": "^1.1.0",
+    "amorph-buffer": "^1.1.1",
+    "arguguard": "0.0.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-amorph": "0.0.2"
+  }
+}
