@@ -18,11 +18,11 @@
   "homepage": "https://github.com/safezero/aes-128-cbc-amorph#readme",
   "dependencies": {
     "aes-js": "^3.0.0",
-    "amorph": "^1.1.0",
-    "amorph-buffer": "^1.1.1",
     "arguguard": "^2.1.1"
   },
   "devDependencies": {
+    "amorph": "^1.3.1",
+    "amorph-buffer": "^1.1.4",
     "chai": "^3.5.0",
     "chai-amorph": "0.0.2"
   }

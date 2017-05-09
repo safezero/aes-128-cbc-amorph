@@ -3,6 +3,10 @@ const Amorph = require('amorph')
 const chai = require('chai')
 const chaiAmorph = require('chai-amorph')
 const crypto = require('crypto')
+const amorphBufferPlugin = require('amorph-buffer')
+
+Amorph.loadPlugin(amorphBufferPlugin)
+Amorph.ready()
 
 function random (size) {
   return new Amorph(crypto.randomBytes(size), 'buffer')
